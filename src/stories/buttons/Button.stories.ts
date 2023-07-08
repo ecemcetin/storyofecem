@@ -23,29 +23,17 @@ export default meta;
 type Story = StoryObj<Button>;
 
 // More on writing stories with args: https://storybook.js.org/docs/angular/writing-stories/args
-export const Primary: Story = {
-  args: {
-    primary: true,
-    label: 'Button',
-  },
-};
 
 export const Secondary: Story = {
   args: {
-    label: 'Button',
+    label: 'ecemişkovski',
   },
 };
-
-export const Large: Story = {
+export const Ecem: Story = {
   args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
-
-export const Small: Story = {
-  args: {
+    primary: true,
     size: 'small',
-    label: 'Button',
+    label: 'ecemiks',
   },
 };
+
