@@ -12,7 +12,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   >
     {{ label }}
   </button>`,
-  styleUrls: ['./button.css'],
+  styleUrls: ['./style/button.scss'],
 })
 export default class ButtonComponent {
   /**
@@ -20,6 +20,8 @@ export default class ButtonComponent {
    */
   @Input()
   primary = false;
+
+  secondary=false;
 
   /**
    * What background color to use

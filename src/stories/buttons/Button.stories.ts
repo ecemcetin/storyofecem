@@ -36,4 +36,12 @@ export const Ecem: Story = {
     label: 'ecemiks',
   },
 };
+export const Furkan: Story = {
+  args: {
+    secondary: true,
+    size: 'small',
+    label: 'furkovski',
+  },
+};
+
 
