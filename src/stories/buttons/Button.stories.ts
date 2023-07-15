@@ -24,11 +24,7 @@ type Story = StoryObj<Button>;
 
 // More on writing stories with args: https://storybook.js.org/docs/angular/writing-stories/args
 
-export const Secondary: Story = {
-  args: {
-    label: 'ecemişkovski',
-  },
-};
+
 export const Ecem: Story = {
   args: {
     primary: true,
